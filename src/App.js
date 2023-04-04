@@ -1,10 +1,21 @@
 import './App.css';
+import './Header';
+import './Nav';
+import './Main';
+import './Footer';
+import Nav from './Nav';
+import Main from './Main';
+import Footer from './Footer';
+import Header from './Header';
 
 function App() {
   return (
-    <div className="App">
-razan
-      </div>
+    <>
+      <Nav/>
+      <Header/>
+      <Main/>
+      <Footer/>
+    </>
   )
 }
 
